@@ -1,0 +1,13 @@
+[package]
+name = "dbsp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+feldera-rest-api = "0.375.0"
+feldera-types = "0.375.0"
+futures-util = "0.3.34"
+rustls = { version = "0.23", default-features = false, features = ["ring"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
